@@ -1,0 +1,198 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.28/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.28/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/ubuntu/workspace',
+5 verbose install   [ 'express',
+5 verbose install     'static-favicon',
+5 verbose install     'morgan',
+5 verbose install     'cookie-parser',
+5 verbose install     'body-parser',
+5 verbose install     'debug',
+5 verbose install     'jade',
+5 verbose install     'mongodb',
+5 verbose install     'monk',
+5 verbose install     'node-sqlserver' ] ]
+6 info preinstall workspace@0.0.1
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping cookie-parser@~1.0.1 /home/ubuntu/workspace
+9 verbose already installed skipping express@~4.2.0 /home/ubuntu/workspace
+10 verbose already installed skipping static-favicon@~1.0.0 /home/ubuntu/workspace
+11 verbose already installed skipping body-parser@~1.0.0 /home/ubuntu/workspace
+12 verbose already installed skipping morgan@~1.0.0 /home/ubuntu/workspace
+13 verbose already installed skipping debug@~0.7.4 /home/ubuntu/workspace
+14 verbose already installed skipping jade@~1.3.0 /home/ubuntu/workspace
+15 verbose already installed skipping mongodb@* /home/ubuntu/workspace
+16 verbose already installed skipping monk@* /home/ubuntu/workspace
+17 verbose cache add [ 'node-sqlserver@*', null ]
+18 verbose cache add name=undefined spec="node-sqlserver@*" args=["node-sqlserver@*",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'node-sqlserver@*',
+19 verbose parsed url   path: 'node-sqlserver@*',
+19 verbose parsed url   href: 'node-sqlserver@*' }
+20 verbose cache add name="node-sqlserver" spec="*" args=["node-sqlserver","*"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '*',
+21 verbose parsed url   path: '*',
+21 verbose parsed url   href: '*' }
+22 verbose addNamed [ 'node-sqlserver', '*' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 259dcc4e-node-sqlserver node-sqlserver@*
+25 verbose lock node-sqlserver@* /home/ubuntu/.npm/259dcc4e-node-sqlserver.lock
+26 silly addNameRange { name: 'node-sqlserver', range: '*', hasData: false }
+27 verbose url raw node-sqlserver
+28 verbose url resolving [ 'https://registry.npmjs.org/', './node-sqlserver' ]
+29 verbose url resolved https://registry.npmjs.org/node-sqlserver
+30 info trying registry request attempt 1 at 03:03:55
+31 verbose etag "1H71LL10ELIKBY03Y3971UR5M"
+32 http GET https://registry.npmjs.org/node-sqlserver
+33 http 304 https://registry.npmjs.org/node-sqlserver
+34 silly registry.get cb [ 304,
+34 silly registry.get   { date: 'Wed, 23 Jul 2014 03:03:55 GMT',
+34 silly registry.get     server: 'Apache',
+34 silly registry.get     via: '1.1 varnish',
+34 silly registry.get     'last-modified': 'Wed, 23 Jul 2014 03:03:55 GMT',
+34 silly registry.get     'cache-control': 'max-age=60',
+34 silly registry.get     etag: '"1H71LL10ELIKBY03Y3971UR5M"',
+34 silly registry.get     'x-served-by': 'cache-dfw1823-DFW',
+34 silly registry.get     'x-cache': 'HIT',
+34 silly registry.get     'x-cache-hits': '1',
+34 silly registry.get     'x-timer': 'S1406084635.264338,VS0,VE0',
+34 silly registry.get     vary: 'Accept',
+34 silly registry.get     'content-length': '0',
+34 silly registry.get     'keep-alive': 'timeout=10, max=50',
+34 silly registry.get     connection: 'Keep-Alive' } ]
+35 verbose etag node-sqlserver from cache
+36 silly addNameRange number 2 { name: 'node-sqlserver', range: '*', hasData: true }
+37 silly addNameRange versions [ 'node-sqlserver', [ '0.1.0' ] ]
+38 verbose addNamed [ 'node-sqlserver', '0.1.0' ]
+39 verbose addNamed [ '0.1.0', '0.1.0' ]
+40 silly lockFile d881fc0a-node-sqlserver-0-1-0 node-sqlserver@0.1.0
+41 verbose lock node-sqlserver@0.1.0 /home/ubuntu/.npm/d881fc0a-node-sqlserver-0-1-0.lock
+42 warn deprecated node-sqlserver@0.1.0: This package has been superseded by msnodesql.
+43 silly lockFile d881fc0a-node-sqlserver-0-1-0 node-sqlserver@0.1.0
+44 silly lockFile d881fc0a-node-sqlserver-0-1-0 node-sqlserver@0.1.0
+45 silly lockFile 259dcc4e-node-sqlserver node-sqlserver@*
+46 silly lockFile 259dcc4e-node-sqlserver node-sqlserver@*
+47 silly resolved [ { name: 'node-sqlserver',
+47 silly resolved     description: 'Microsoft Driver for Node.js for SQL Server',
+47 silly resolved     author: { name: 'Microsoft Corp.' },
+47 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+47 silly resolved     version: '0.1.0',
+47 silly resolved     keywords: [ 'sql', 'database', 'mssql', 'azure', 'sqlserver', 'tds' ],
+47 silly resolved     homepage: 'https://github.com/WindowsAzure/node-sqlserver',
+47 silly resolved     bugs: { url: 'https://github.com/WindowsAzure/node-sqlserver/issues' },
+47 silly resolved     licenses: [ [Object] ],
+47 silly resolved     main: './lib/sql.js',
+47 silly resolved     repository:
+47 silly resolved      { type: 'git',
+47 silly resolved        url: 'git://github.com/WindowsAzure/node-sqlserver.git' },
+47 silly resolved     engines: { node: '0.6' },
+47 silly resolved     devDependencies: { mocha: '0.14.x', async: '0.1.x' },
+47 silly resolved     scripts: { install: 'node-gyp rebuild' },
+47 silly resolved     gypfile: true,
+47 silly resolved     readme: '# Microsoft Driver for Node.js for SQL Server\r\n\r\nThe Microsoft Driver for Node.js for SQL Server allows Node.js applications on\r\nMicrosoft Windows and Microsoft Windows Azure to access Microsoft SQL Server \r\nand Microsoft Windows Azure SQL Database.\r\n\r\nThis is an initial preview release, and is not production ready. We welcome any\r\nfeedback, fixes and contributions from the community at this very early stage.\r\n\r\n## Prerequisites\r\n\r\nThe following prerequisites are necessary prior to using the driver:\r\n\r\n* Node.js - use the latest version if possible, but it has been tested on node\r\n0.6.10 and later\r\n\r\n* node-gyp - latest version installed globally (npm install -g node-gyp)\r\n\r\n* python 2.7.x - for node-gyp (make sure it is in the path)\r\n\r\n* Visual C++ 2010 - the Express edition is freely available from \r\n[Microsoft][visualstudio]\r\n\r\n* SQL Server Native Client 11.0 - available as Microsoft SQL Server 2012 \r\nNative Client found in the [SQL Server 2012 Feature Pack][sqlncli]\r\n\r\n## Build\r\n\r\nTo build the driver, first node-gyp must configure the appropriate build files.\r\n\r\n    node-gyp configure\r\n\r\nUse node-gyp to build the driver:\r\n\r\n    node-gyp build\r\n\r\nOr to build the debug version:\r\n\r\n    node-gyp build --debug\r\n\r\nThen copy the sqlserver.node file from the build\\\\(Release|Debug) directory to\r\nthe lib directory.  If you would like to use Visual C++ to debug the driver,\r\nalso copy the sqlserver.pdb file from the same directory.\r\n\r\n## Test\r\n\r\nIncluded are a few unit tests.  They require mocha, async, and assert to be \r\ninstalled via npm.  Also, set the variables in test-config.js, then run the \r\ntests as follows:\r\n\r\n    cd test\r\n    node runtests.js\r\n\r\n## Known Issues\r\n\r\nWe are aware that many features are still not implemented, and are working to\r\nupdate these. Please visit the [project on Github][project] to view \r\noutstanding [issues][issues].\r\n\r\n## Usage\r\n\r\nFor now, please see the unit tests for usage examples.\r\n\r\n## License\r\n\r\nThe Microsoft Driver for Node.js for SQL Server is licensed under the Apache\r\n2.0 license.  See the LICENSE file for more details.\r\n\r\n[visualstudio]: http://www.microsoft.com/visualstudio/\r\n\r\n[sqlncli]: http://www.microsoft.com/en-us/download/details.aspx?id=29065\r\n\r\n[project]: https://github.com/windowsazure/node-sqlserver\r\n\r\n[issues]: https://github.com/windowsazure/node-sqlserver/issues\r\n\r\n\r\n\r\n',
+47 silly resolved     readmeFilename: 'README.md',
+47 silly resolved     _id: 'node-sqlserver@0.1.0',
+47 silly resolved     _shasum: '8b6ef6375ca20ca322f9e259bb870747a2cb8e6f',
+47 silly resolved     _from: 'node-sqlserver@*',
+47 silly resolved     _resolved: 'https://registry.npmjs.org/node-sqlserver/-/node-sqlserver-0.1.0.tgz' } ]
+48 info install node-sqlserver@0.1.0 into /home/ubuntu/workspace
+49 info installOne node-sqlserver@0.1.0
+50 warn engine node-sqlserver@0.1.0: wanted: {"node":"0.6"} (current: {"node":"v0.10.28","npm":"1.4.9"})
+51 info /home/ubuntu/workspace/node_modules/node-sqlserver unbuild
+52 verbose tar unpack /home/ubuntu/.npm/node-sqlserver/0.1.0/package.tgz
+53 silly lockFile 450a78b8-pace-node-modules-node-sqlserver tar:///home/ubuntu/workspace/node_modules/node-sqlserver
+54 verbose lock tar:///home/ubuntu/workspace/node_modules/node-sqlserver /home/ubuntu/.npm/450a78b8-pace-node-modules-node-sqlserver.lock
+55 silly lockFile e39d8f42-node-sqlserver-0-1-0-package-tgz tar:///home/ubuntu/.npm/node-sqlserver/0.1.0/package.tgz
+56 verbose lock tar:///home/ubuntu/.npm/node-sqlserver/0.1.0/package.tgz /home/ubuntu/.npm/e39d8f42-node-sqlserver-0-1-0-package-tgz.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm extractEntry .npmignore
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm extractEntry LICENSE
+62 silly gunzTarPerm extractEntry binding.gyp
+63 silly gunzTarPerm extractEntry lib/sql.js
+64 silly gunzTarPerm extractEntry src/OdbcOperation.cpp
+65 silly gunzTarPerm extractEntry src/Column.h
+66 silly gunzTarPerm extractEntry src/Connection.h
+67 silly gunzTarPerm extractEntry src/OdbcConnection.cpp
+68 silly gunzTarPerm extractEntry src/OdbcConnection.h
+69 silly gunzTarPerm extractEntry src/OdbcConnectionBridge.h
+70 silly gunzTarPerm extractEntry src/OdbcException.cpp
+71 silly gunzTarPerm extractEntry src/OdbcException.h
+72 silly gunzTarPerm extractEntry src/OdbcHandle.h
+73 silly gunzTarPerm extractEntry src/Connection.cpp
+74 silly gunzTarPerm extractEntry src/OdbcOperation.h
+75 silly gunzTarPerm extractEntry src/Operation.h
+76 silly gunzTarPerm extractEntry src/ResultSet.cpp
+77 silly gunzTarPerm extractEntry src/ResultSet.h
+78 silly gunzTarPerm extractEntry src/stdafx.cpp
+79 silly gunzTarPerm extractEntry src/stdafx.h
+80 silly gunzTarPerm extractEntry src/Utility.cpp
+81 silly gunzTarPerm extractEntry src/Utility.h
+82 silly gunzTarPerm extractEntry test/connect.js
+83 silly gunzTarPerm extractEntry test/query.js
+84 silly gunzTarPerm extractEntry test/runtests.js
+85 silly gunzTarPerm extractEntry test/test-config.js
+86 silly gunzTarPerm extractEntry test/txn.js
+87 silly gunzTarPerm extractEntry test/testlist.txt
+88 silly lockFile 450a78b8-pace-node-modules-node-sqlserver tar:///home/ubuntu/workspace/node_modules/node-sqlserver
+89 silly lockFile 450a78b8-pace-node-modules-node-sqlserver tar:///home/ubuntu/workspace/node_modules/node-sqlserver
+90 silly lockFile e39d8f42-node-sqlserver-0-1-0-package-tgz tar:///home/ubuntu/.npm/node-sqlserver/0.1.0/package.tgz
+91 silly lockFile e39d8f42-node-sqlserver-0-1-0-package-tgz tar:///home/ubuntu/.npm/node-sqlserver/0.1.0/package.tgz
+92 info preinstall node-sqlserver@0.1.0
+93 verbose readDependencies using package.json deps
+94 verbose readDependencies using package.json deps
+95 silly resolved []
+96 verbose about to build /home/ubuntu/workspace/node_modules/node-sqlserver
+97 info build /home/ubuntu/workspace/node_modules/node-sqlserver
+98 verbose linkStuff [ false, false, false, '/home/ubuntu/workspace/node_modules' ]
+99 info linkStuff node-sqlserver@0.1.0
+100 verbose linkBins node-sqlserver@0.1.0
+101 verbose linkMans node-sqlserver@0.1.0
+102 verbose rebuildBundles node-sqlserver@0.1.0
+103 info install node-sqlserver@0.1.0
+104 verbose unsafe-perm in lifecycle true
+105 info node-sqlserver@0.1.0 Failed to exec install script
+106 info /home/ubuntu/workspace/node_modules/node-sqlserver unbuild
+107 info preuninstall node-sqlserver@0.1.0
+108 info uninstall node-sqlserver@0.1.0
+109 verbose true,/home/ubuntu/workspace/node_modules,/home/ubuntu/workspace/node_modules unbuild node-sqlserver@0.1.0
+110 info postuninstall node-sqlserver@0.1.0
+111 error node-sqlserver@0.1.0 install: `node-gyp rebuild`
+111 error Exit status 1
+112 error Failed at the node-sqlserver@0.1.0 install script.
+112 error This is most likely a problem with the node-sqlserver package,
+112 error not with npm itself.
+112 error Tell the author that this fails on your system:
+112 error     node-gyp rebuild
+112 error You can get their info via:
+112 error     npm owner ls node-sqlserver
+112 error There is likely additional logging output above.
+113 error System Linux 3.14.12-c9
+114 error command "/home/ubuntu/.nvm/v0.10.28/bin/node" "/home/ubuntu/.nvm/v0.10.28/bin/npm" "install"
+115 error cwd /home/ubuntu/workspace
+116 error node -v v0.10.28
+117 error npm -v 1.4.9
+118 error code ELIFECYCLE
+119 verbose exit [ 1, true ]
